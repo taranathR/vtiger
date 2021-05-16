@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[chrome browser is launching successfully]]>
+    </line>
+    <line>
+      <![CDATA[chrome browser is maximized successfully]]>
+    </line>
+    <line>
+      <![CDATA[Login page is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[Home page is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[method is getting executed...]]>
+    </line>
+    <line>
+      <![CDATA[user is logged out successfully]]>
+    </line>
+    <line>
+      <![CDATA[Home page is displayed successfully]]>
+    </line>
+    <line>
+      <![CDATA[next method is getting executed...]]>
+    </line>
+    <line>
+      <![CDATA[user is logged out successfully]]>
+    </line>
+    <line>
+      <![CDATA[Applications is getting closed............]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="70530" started-at="2021-05-06T04:47:16Z" finished-at="2021-05-06T04:48:26Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="70530" started-at="2021-05-06T04:47:16Z" finished-at="2021-05-06T04:48:26Z">
+      <class name="Examples.Sample4">
+        <test-method status="PASS" signature="openApplication(java.lang.String)[pri:0, instance:Examples.Sample4@1e67b872]" name="openApplication" is-config="true" duration-ms="11848" started-at="2021-05-06T10:17:16Z" finished-at="2021-05-06T10:17:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ChromeDriver]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[chrome browser is launching successfully]]>
+            </line>
+            <line>
+              <![CDATA[chrome browser is maximized successfully]]>
+            </line>
+            <line>
+              <![CDATA[Login page is displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:Examples.Sample4@1e67b872]" name="loginToApplication" is-config="true" duration-ms="18737" started-at="2021-05-06T10:17:28Z" finished-at="2021-05-06T10:17:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Home page is displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="demo()[pri:0, instance:Examples.Sample4@1e67b872]" name="demo" duration-ms="103" started-at="2021-05-06T10:17:46Z" finished-at="2021-05-06T10:17:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[method is getting executed...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- demo -->
+        <test-method status="PASS" signature="logOutFromApplication()[pri:0, instance:Examples.Sample4@1e67b872]" name="logOutFromApplication" is-config="true" duration-ms="19714" started-at="2021-05-06T10:17:46Z" finished-at="2021-05-06T10:18:06Z">
+          <reporter-output>
+            <line>
+              <![CDATA[user is logged out successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method status="PASS" signature="loginToApplication()[pri:0, instance:Examples.Sample4@1e67b872]" name="loginToApplication" is-config="true" duration-ms="6843" started-at="2021-05-06T10:18:06Z" finished-at="2021-05-06T10:18:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Home page is displayed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+        <test-method status="PASS" signature="disp()[pri:0, instance:Examples.Sample4@1e67b872]" name="disp" duration-ms="0" started-at="2021-05-06T10:18:13Z" finished-at="2021-05-06T10:18:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[next method is getting executed...]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- disp -->
+        <test-method status="PASS" signature="logOutFromApplication()[pri:0, instance:Examples.Sample4@1e67b872]" name="logOutFromApplication" is-config="true" duration-ms="10446" started-at="2021-05-06T10:18:13Z" finished-at="2021-05-06T10:18:23Z">
+          <reporter-output>
+            <line>
+              <![CDATA[user is logged out successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logOutFromApplication -->
+        <test-method status="PASS" signature="closeTheApplication()[pri:0, instance:Examples.Sample4@1e67b872]" name="closeTheApplication" is-config="true" duration-ms="2797" started-at="2021-05-06T10:18:23Z" finished-at="2021-05-06T10:18:26Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Applications is getting closed............]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeTheApplication -->
+      </class> <!-- Examples.Sample4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

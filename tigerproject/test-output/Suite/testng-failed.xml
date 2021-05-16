@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="browser" value="FirefoxDriver"/>
+  <test name="firefoxBrowser(failed)" parallel="classes">
+    <parameter name="browser" value="FirefoxDriver"/>
+    <classes>
+      <class name="TestScript.TestNGClass1">
+        <methods>
+          <include name="TC_6Test"/>
+          <include name="loginToApplication"/>
+          <include name="loginToApplication"/>
+          <include name="logOutFromApplication"/>
+          <include name="logOutFromApplication"/>
+          <include name="openApplication"/>
+          <include name="openApplication"/>
+          <include name="closeTheApplication"/>
+          <include name="closeTheApplication"/>
+        </methods>
+      </class> <!-- TestScript.TestNGClass1 -->
+      <class name="TestScript.TestNGClass4">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="loginToApplication"/>
+          <include name="logOutFromApplication"/>
+          <include name="logOutFromApplication"/>
+          <include name="openApplication"/>
+          <include name="openApplication"/>
+          <include name="TC_9"/>
+          <include name="closeTheApplication"/>
+          <include name="closeTheApplication"/>
+        </methods>
+      </class> <!-- TestScript.TestNGClass4 -->
+      <class name="TestScript.TestNGClass2">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="loginToApplication"/>
+          <include name="logOutFromApplication"/>
+          <include name="logOutFromApplication"/>
+          <include name="openApplication"/>
+          <include name="openApplication"/>
+          <include name="TC_7"/>
+          <include name="closeTheApplication"/>
+          <include name="closeTheApplication"/>
+        </methods>
+      </class> <!-- TestScript.TestNGClass2 -->
+      <class name="TestScript.TestNGClass5">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="loginToApplication"/>
+          <include name="TC_10"/>
+          <include name="logOutFromApplication"/>
+          <include name="logOutFromApplication"/>
+          <include name="openApplication"/>
+          <include name="openApplication"/>
+          <include name="closeTheApplication"/>
+          <include name="closeTheApplication"/>
+        </methods>
+      </class> <!-- TestScript.TestNGClass5 -->
+      <class name="TestScript.TestNGclass3">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="loginToApplication"/>
+          <include name="logOutFromApplication"/>
+          <include name="logOutFromApplication"/>
+          <include name="openApplication"/>
+          <include name="openApplication"/>
+          <include name="closeTheApplication"/>
+          <include name="closeTheApplication"/>
+          <include name="TC_8"/>
+        </methods>
+      </class> <!-- TestScript.TestNGclass3 -->
+    </classes>
+  </test> <!-- firefoxBrowser(failed) -->
+</suite> <!-- Failed suite [Suite] -->
